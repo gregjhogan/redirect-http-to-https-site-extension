@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>RedirectHttpToHttps</id>
+    <title>Redirect HTTP requests to HTTPS</title>
+    <version>1.0.0</version>
+    <authors>Greg Hogan</authors>
+    <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <projectUrl>https://github.com/gregjhogan/RedirectHttpToHttpsSiteExtension</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This extension redirects all HTTP traffic to HTTPS</description>
+    <tags>http redirect https</tags>
+  </metadata>
+  <files>
+    <file src="applicationHost.xdt" target="content" />
+  </files>
+</package>

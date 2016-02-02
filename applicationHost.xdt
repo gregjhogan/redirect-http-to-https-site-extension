@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+    <location path="%XDT_SITENAME%" xdt:Transform="InsertIfMissing" xdt:Locator="Match(path)">
+        <system.webServer xdt:Transform="InsertIfMissing">
+            <rewrite xdt:Transform="InsertIfMissing">
+                <rules lockElements="clear" xdt:Transform="InsertIfMissing">
+                    <rule name="redirect HTTP to HTTPS" enabled="true" stopProcessing="true" lockItem="true">
+                        <match url="(.*)" lockItem="true" />
+                        <conditions lockElements="add,remove,clear">
+                            <add input="{HTTPS}" pattern="off" ignoreCase="true" lockItem="true" />
+                            <add input="{WARMUP_REQUEST}" pattern="1" negate="true" lockItem="true" />
+                        </conditions>
+                        <action type="Redirect" url="https://{HTTP_HOST}/{R:1}" appendQueryString="true" redirectType="Permanent" lockItem="true" />
+                    </rule>
+                </rules>
+            </rewrite>
+        </system.webServer>
+    </location>
+</configuration>
