@@ -7,7 +7,7 @@
     <authors>gregjhogan</authors>
     <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
     <projectUrl>https://github.com/gregjhogan/redirect-http-to-https-site-extension</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/gregjhogan/redirect-http-to-https-site-extension/master/icon.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/gregjhogan/redirect-http-to-https-site-extension/aa43542564d7af96763097a8e923a041c03a0d6e/icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Azure web app site extension that redirects HTTP traffic to HTTPS</description>
     <tags>http redirect https</tags>
