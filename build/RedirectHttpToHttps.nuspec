@@ -3,7 +3,7 @@
   <metadata>
     <id>RedirectHttpToHttps</id>
     <title>Redirect HTTP to HTTPS</title>
-    <version>0.0.1</version>
+    <version>0.1.0</version>
     <authors>gregjhogan</authors>
     <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
     <projectUrl>https://github.com/gregjhogan/redirect-http-to-https-site-extension</projectUrl>
